@@ -19,7 +19,7 @@ All your answers must be included in the fenced region marked by back ticks and 
 ---
 
 ## Due Date
-⏰ **Monday, 30 March 2020, at 10:30 AM. At that time, the repo will be closed and will not accept any more submissions. 🚫 _No late work will be accepted._**
+⏰ **Thursday, 2 April 2020, at 10:00 AM. At that time, the repo will be closed and will not accept any more submissions. 🚫 _No late work will be accepted._**
 
 ---
 
