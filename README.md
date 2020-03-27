@@ -50,6 +50,13 @@ pre-commit: No whitespace errors 😀
 Every subsequent commit should generate the following output:
 
 ```
+pre-commit: About to create a new commit...
+pre-commit: Testing for whitespace errors 😨
+pre-commit: No whitespace errors 😀
+[master 79e878d] Add content to file.txt
+ 1 file changed, 1 insertion(+)
+```
+
 ```bash
 ```
 
