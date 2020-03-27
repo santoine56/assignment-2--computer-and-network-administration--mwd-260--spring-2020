@@ -30,7 +30,7 @@ Issue a pull request back into the original repo, the one from which your forked
 
 ---
 
-## / 1 Create a Global Pre Commit Hook
+## /1 Create a Global Pre Commit Hook
 Write a global pre-commit hook that reports whether a commit is the first or subsequent commit to the repo, and also checks for un-necessary whitespace in a file, such as trailing whitespace on a line and extra newlines. You will need to modify `pre-commit.sample`, which is available under `.git/hooks` in every basic Git repo on your machine. (**50pts**)
 
 A new commit should generate the following output:
