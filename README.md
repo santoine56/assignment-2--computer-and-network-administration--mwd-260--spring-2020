@@ -36,16 +36,19 @@ Write a global pre-commit hook that reports whether a commit is the first or sub
 A new commit should generate the following output:
 
 ```
+```bash
 ```
 
 Every subsequent commit should generate the following output:
 
 ```
+```bash
 ```
 
 Trailing whitespace on a line and extra newlines should generate the following output:
 
 ```
+```bash
 ```
 
 When you’re done, do the following:
