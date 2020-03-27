@@ -63,6 +63,14 @@ pre-commit: No whitespace errors 😀
 Trailing whitespace on a line and extra newlines should generate the following output:
 
 ```
+pre-commit: About to create a new commit...
+pre-commit: Testing for whitespace errors 😨
+file.txt:4: trailing whitespace.
++
+file.txt:2: new blank line at EOF.
+pre-commit: Aborting commit due to whitespace errors ☹️
+```
+
 ```bash
 ```
 
