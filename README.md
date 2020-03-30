@@ -44,9 +44,6 @@ pre-commit: No whitespace errors 😀
  create mode 100644 file.txt
 ```
 
-```bash
-```
-
 Every subsequent commit should generate the following output:
 
 ```
@@ -57,8 +54,6 @@ pre-commit: No whitespace errors 😀
  1 file changed, 1 insertion(+)
 ```
 
-```bash
-```
 
 Trailing whitespace on a line and extra newlines should generate the following output:
 
@@ -69,9 +64,6 @@ file.txt:4: trailing whitespace.
 +
 file.txt:2: new blank line at EOF.
 pre-commit: Aborting commit due to whitespace errors ☹️
-```
-
-```bash
 ```
 
 When you’re done, do the following:
