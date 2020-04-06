@@ -54,7 +54,6 @@ pre-commit: No whitespace errors 😀
  1 file changed, 1 insertion(+)
 ```
 
-
 Trailing whitespace on a line and extra newlines should generate the following output:
 
 ```
@@ -76,4 +75,9 @@ A. Copy the contents of your global Git config settings and paste it below. Use 
 B. Place the entire contents of your pre commit hook in the included file `pre-commit`.
 
 ## /2 Flush and Backup a File
+
+### If You Have Access to a Linux Machine
 Write a script that backups the `/var/log/kern.log` file to a file called `kern.log.backup`, then resets its contents to an empty file. Your script in this case should return 0. If `/var/log/kern.log` is empty, do nothing and return an exit status of `1`. Echo the status of each event in the script. For example, before copying the log file, indicate that the script is about to copy the file. Make the interaction with the script as informative as possible. Add the contents of your finished script to the included `kernel-log-backup.sh`. (**50pts**)
+
+### If You Don’t Have Access to a Linux Machine
+Write a script that backups a file called `access.log` file to a file called `access.log.backup`, then resets its contents to an empty file. Your script in this case should return 0. If `access.log` is empty, do nothing and return an exit status of `1`. Echo the status of each event in the script. For example, before copying the log file, indicate that the script is about to copy the file. Make the interaction with the script as informative as possible. Add the contents of your finished script to the included `kernel-log-backup.sh`. (**50pts**)
