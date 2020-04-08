@@ -18,7 +18,6 @@ then
 	echo "$_access.log is being moved to access.log.backup file."
   #moves access.log file to d
     mv "$each_file" "$each_file%${access.log}}${access.log.backup}"
-  exit 0
 else
   #returns an exit status of 0
 	echo "$?"
